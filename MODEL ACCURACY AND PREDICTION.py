@@ -21,7 +21,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.model_selection import cross_val_score
 from sklearn import metrics
 from sklearn import tree
-df = pd.read_csv('INDIANCROP_DATA.csv')
+df = pd.read_csv('INDIANCROP_DATA_cleaned.csv')
 
 state_mapping = state_mapping = {'Andaman and Nicobar': 0,'Andhra Pradesh': 1,'Assam': 2,'Chattisgarh': 3,'Goa': 4,'Gujarat': 5,'Haryana': 6,
                                  'Himachal Pradesh': 7,'Jammu and Kashmir': 8,'Karnataka': 9,'Kerala': 10,'Madhya Pradesh': 11,'Maharashtra': 12,
